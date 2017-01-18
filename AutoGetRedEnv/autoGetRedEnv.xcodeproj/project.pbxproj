@@ -318,7 +318,8 @@
 					};
 					C507B6FE1C9FD1E1008455DA = {
 						CreatedOnToolsVersion = 7.2;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = SJFH7WE6F4;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -592,15 +593,19 @@
 			buildSettings = {
 				ARCHS = arm64;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SJFH7WE6F4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "autoGetRedEnv/autoGetRedEnv-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WeChat/Info.plist";
 				INSTALL_PATH = /usr/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiainfo.autoGetRedEnv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = arm64;
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -617,15 +622,19 @@
 			buildSettings = {
 				ARCHS = arm64;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SJFH7WE6F4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "autoGetRedEnv/autoGetRedEnv-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WeChat/Info.plist";
 				INSTALL_PATH = /usr/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiainfo.autoGetRedEnv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = arm64;
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;

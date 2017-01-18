@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>autoGetRedEnv</string>
 	<key>CFBundleExecutable</key>
 	<string>WeChat</string>
 	<key>CFBundleIdentifier</key>
